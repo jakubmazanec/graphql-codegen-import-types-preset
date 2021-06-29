@@ -1,0 +1,34 @@
+.DS_Store
+*.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Cache
+.axe/
+.bundle/
+.happo/
+.idea/
+.npm/
+.vagrant/
+.vscode/
+.eslintcache
+.yarnclean
+
+# Directories
+coverage/
+dist/
+esm/
+lib/
+node_modules/
+tmp/
+build/
+
+# Custom
+*.min.js
+*.map
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace

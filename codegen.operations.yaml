@@ -1,0 +1,10 @@
+generates:
+  output/operations.ts:
+    schema: ./schema.graphql
+    documents: ./operations.graphql
+    preset: import-types
+    presetConfig:
+      typesPath: ./schema
+    plugins:
+      - typescript-operations
+      - typescript-react-apollo
